@@ -28,13 +28,12 @@ Consequently,a new formula for graph-based ranking that takes into account edge 
 TextRank is an extractive and unsupervised text summarization
 technique.TextRank algorithm that we will be following:
 
-* ## The first step would be to concatenate all the text contained in the
-  articles
-* ## Then split the text into individual sentences
-* ## In the next step, we will find vector representation (word embeddings) for each and every sentence
-* ## Similarities between sentence vectors are then calculated and stored in a matrix
-* ## The similarity matrix is then converted into a graph, with sentences as vertices and similarity scores as edges, for             sentence rank calculation
-* ## Finally, a certain number of top-ranked sentences form the final summary
+* The first step would be to concatenate all the text contained in the articles
+* Then split the text into individual sentences
+* In the next step, we will find vector representation (word embeddings) for each and every sentence
+* Similarities between sentence vectors are then calculated and stored in a matrix
+* The similarity matrix is then converted into a graph, with sentences as vertices and similarity scores as edges, for             sentence rank calculation
+* Finally, a certain number of top-ranked sentences form the final summary
 
 
 ### Sentence Extraction -
